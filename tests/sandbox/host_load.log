@@ -1,0 +1,14 @@
+{"end_time_ms":1608034615257,"ringbuffer_messages":{"AdminMessage::log_msg":{"bytes":611,"count":7},"AdminMessage::work_stats":{"bytes":2298,"count":45},"consensus::ledger_append":{"bytes":11930,"count":1}},"start_time_ms":1608034614739}
+{"end_time_ms":1608034615756,"ringbuffer_messages":{"AdminMessage::work_stats":{"bytes":2704,"count":52}},"start_time_ms":1608034615257}
+{"end_time_ms":1608034616257,"ringbuffer_messages":{"AdminMessage::work_stats":{"bytes":2600,"count":50},"consensus::ledger_append":{"bytes":1604,"count":1},"consensus::ledger_commit":{"bytes":8,"count":1}},"start_time_ms":1608034615756}
+{"end_time_ms":1608034616758,"ringbuffer_messages":{"AdminMessage::work_stats":{"bytes":2496,"count":48}},"start_time_ms":1608034616257}
+{"end_time_ms":1608034617258,"ringbuffer_messages":{"AdminMessage::work_stats":{"bytes":2392,"count":46}},"start_time_ms":1608034616758}
+{"end_time_ms":1608034617758,"ringbuffer_messages":{"AdminMessage::work_stats":{"bytes":2652,"count":51}},"start_time_ms":1608034617258}
+{"end_time_ms":1608034618258,"ringbuffer_messages":{"AdminMessage::work_stats":{"bytes":2704,"count":52}},"start_time_ms":1608034617758}
+{"end_time_ms":1608034618758,"ringbuffer_messages":{"AdminMessage::work_stats":{"bytes":2392,"count":46}},"start_time_ms":1608034618258}
+{"end_time_ms":1608034619258,"ringbuffer_messages":{"AdminMessage::work_stats":{"bytes":2704,"count":52}},"start_time_ms":1608034618758}
+{"end_time_ms":1608034619759,"ringbuffer_messages":{"AdminMessage::work_stats":{"bytes":2392,"count":46}},"start_time_ms":1608034619258}
+{"end_time_ms":1608034620260,"ringbuffer_messages":{"AdminMessage::work_stats":{"bytes":2548,"count":49}},"start_time_ms":1608034619759}
+{"end_time_ms":1608034620760,"ringbuffer_messages":{"AdminMessage::work_stats":{"bytes":2652,"count":51}},"start_time_ms":1608034620260}
+{"end_time_ms":1608034621261,"ringbuffer_messages":{"AdminMessage::work_stats":{"bytes":2444,"count":47}},"start_time_ms":1608034620760}
+{"end_time_ms":1608034621761,"ringbuffer_messages":{"AdminMessage::work_stats":{"bytes":2652,"count":51}},"start_time_ms":1608034621261}

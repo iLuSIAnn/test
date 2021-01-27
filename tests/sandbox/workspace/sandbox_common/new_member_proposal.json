@@ -1,0 +1,10 @@
+{
+  "parameter": {
+    "cert": "-----BEGIN CERTIFICATE-----\nMIIBtTCCATygAwIBAgIUW6KFKRUIhEDBrjZ+j4YWJ/uAeRcwCgYIKoZIzj0EAwMw\nEjEQMA4GA1UEAwwHbWVtYmVyNTAeFw0yMTAxMDcxMzA3MDRaFw0yMjAxMDcxMzA3\nMDRaMBIxEDAOBgNVBAMMB21lbWJlcjUwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAAR9\nCLGIQwtvZyDe+CnqmDSocJZz86lNdy0LmhANOlmfXpAEzgniuLt9pkC+slRH9vRt\n5DdaaTjp0SMCKAN3ivbEh0A0aQgPKdU1xtjLalCv55Ti6tXVNDZ25nV4u1jzixyj\nUzBRMB0GA1UdDgQWBBTyp5/nxUc/Ktpxpm52lKOmpE+OMzAfBgNVHSMEGDAWgBTy\np5/nxUc/Ktpxpm52lKOmpE+OMzAPBgNVHRMBAf8EBTADAQH/MAoGCCqGSM49BAMD\nA2cAMGQCMB2ehZu3Up4coQ25rnplXNmqWEOgVm52uBCnNhOo1VPzLPE/g9uT/xIP\nnhG9ylj41gIwSF/l6rHAzvuN5fp6JuVwrHT7PlFVtab101J6fCjWd2VV+NR6AQ+4\nUfBEaOWlaJaO\n-----END CERTIFICATE-----\n",
+    "encryption_pub_key": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsbzSSFEQjkg6JxJhLG/O\nibDFoPp1CR/3IHagm7MMNxzs5JgHAC2B6be1vUHVnWVhJaJZE1Mdqu0BwJOlmS4b\ny8m99BeMpE1Mx0LA1WnHpm00E6lbi3nGbcwBPrtBK7bi7pHy/e5TlvRJgd3t5hcI\nQVa+DNZFBpmJ+1PXoI+oYZCNIWfSHfrNnb6eCwrk8xRQy1jgRz2oE/OtIAMpkTdE\n7yzBNUa1Sz1xeT8UqQR6sRl3eCbefXBcmn2xCadgcA4VVBJtLfXUYYIOsAqYcMqn\n7pz13vsSFGvcGVTi8JZevK0f/2MHx/eDoG6wx2/s4va+ZP3GCLCLSCAb3hj38yKJ\n6wIDAQAB\n-----END PUBLIC KEY-----\n",
+    "member_data": null
+  },
+  "script": {
+    "text": "\n    tables, args = ...\n    return Calls:call(\"new_member\", args)\n    "
+  }
+}

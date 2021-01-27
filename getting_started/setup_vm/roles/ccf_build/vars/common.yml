@@ -1,0 +1,28 @@
+workspace: "/tmp/"
+debs:
+  - apt-transport-https
+  - ninja-build
+  - libuv1-dev
+  - libc++-8-dev
+  - libc++abi-8-dev
+  - python3.8-dev
+  - python3.8-venv
+  - llvm-8
+  - clang-8
+  - clang-format-8
+  - clang-tools-8
+  - expect
+  - git
+  - ccache
+  - doxygen
+  - kmod
+  - cmake
+  - libssl-dev
+  - jq
+  - sudo
+  - curl
+  - shellcheck
+
+mbedtls_ver: "2.16.6"
+mbedtls_dir: "mbedtls-{{ mbedtls_ver }}"
+mbedtls_src: "{{ mbedtls_dir }}.tar.gz"

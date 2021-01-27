@@ -1,0 +1,62 @@
+- name: Include vars
+  include_vars: common.yml
+
+- name: Add Python PPA
+  apt_repository:
+    repo: ppa:deadsnakes/ppa
+  become: true
+
+- name: Add CMake repository key
+  apt_key:
+    url: "https://apt.kitware.com/keys/kitware-archive-latest.asc"
+    state: present
+  become: yes
+
+- name: Add CMake repository
+  apt_repository:
+    repo: "deb https://apt.kitware.com/ubuntu/ {{ ansible_distribution_release }} main"
+    state: present
+    update_cache: yes
+  become: yes
+
+- name: Install debs
+  apt:
+    name: "{{ debs }}"
+    update_cache: yes
+  become: yes
+
+- name: Download mbedtls
+  get_url:
+    url: https://github.com/ARMmbed/mbedtls/archive/{{ mbedtls_src }}
+    dest: "{{ workspace }}/{{ mbedtls_src }}"
+  become: true
+
+- name: Remove existing mbedtls checkout
+  file:
+    path: "{{ workspace }}/mbedtls-{{ mbedtls_dir }}"
+    state: absent
+
+- name: Expand mbedtls
+  unarchive:
+    src: "{{ workspace }}/{{ mbedtls_src }}"
+    dest: "{{ workspace }}"
+    copy: no
+    creates: "{{ workspace }}/mbedtls-{{ mbedtls_dir }}/CMakeLists.txt"
+
+- name: Make mbedtls build dir
+  file:
+    path: "{{ workspace }}/mbedtls-{{ mbedtls_dir }}/build"
+    state: directory
+
+- name: Build mbedtls
+  shell: |
+    cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_POSITION_INDEPENDENT_CODE=ON ..
+    make -j4
+  args:
+    chdir: "{{ workspace }}/mbedtls-{{ mbedtls_dir }}/build"
+
+- name: Install mbedtls
+  command: make install
+  args:
+    chdir: "{{ workspace }}/mbedtls-{{ mbedtls_dir }}/build"
+  become: true

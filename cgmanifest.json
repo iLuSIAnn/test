@@ -1,0 +1,150 @@
+{
+  "Registrations": [
+    {
+      "component": {
+        "type": "git",
+        "git": {
+          "repositoryUrl": "https://github.com/nlohmann/json.git",
+          "commitHash": "db78ac1d7716f56fc9f1b030b715f872f93964e4"
+        }
+      }
+    },
+    {
+      "component": {
+        "type": "git",
+        "git": {
+          "repositoryUrl": "https://github.com/lua/lua.git",
+          "commitHash": "88ff582fd8f94dd8ba751142f12bc048815ae20e"
+        }
+      }
+    },
+    {
+      "component": {
+        "type": "git",
+        "git": {
+          "repositoryUrl": "https://github.com/onqtam/doctest.git",
+          "commitHash": "1c8da00c978c19e00a434b2b1f854fcffc9fba35"
+        }
+      }
+    },
+    {
+      "component": {
+        "type": "git",
+        "git": {
+          "repositoryUrl": "https://github.com/iboB/picobench.git",
+          "commitHash": "5f78fbd47e84af91c8e2409cba676577bd939ee7"
+        }
+      }
+    },
+    {
+      "component": {
+        "type": "git",
+        "git": {
+          "repositoryUrl": "https://github.com/CLIUtils/CLI11.git",
+          "commitHash": "5cb3efabce007c3a0230e4cc2e27da491c646b6c"
+        }
+      }
+    },
+    {
+      "component": {
+        "type": "git",
+        "git": {
+          "repositoryUrl": "https://github.com/rpavlik/jenkins-ctest-plugin.git",
+          "commitHash": "22265f5786dd26e47c46329f1fc76fc08de777c5"
+        }
+      }
+    },
+    {
+      "component": {
+        "type": "git",
+        "git": {
+          "repositoryUrl": "https://github.com/msgpack/msgpack-c.git",
+          "commitHash": "6e7deb809120881634b3ca895e66b2a946084f34"
+        }
+      }
+    },
+    {
+      "component": {
+        "type": "git",
+        "git": {
+          "repositoryUrl": "https://github.com/fmtlib/fmt",
+          "commitHash": "cd4af11efc9c622896a3e4cb599fa28668ca3d05"
+        }
+      }
+    },
+    {
+      "component": {
+        "type": "git",
+        "git": {
+          "repositoryUrl": "https://github.com/project-everest/hacl-star",
+          "commitHash": "b5343363688fbe0e3cdc0c488188708f09eb8a14"
+        }
+      }
+    },
+    {
+      "Component": {
+        "Type": "other",
+        "Other": {
+          "Name": "QuickJS",
+          "Version": "2020-11-08",
+          "DownloadUrl": "https://bellard.org/quickjs/quickjs-2020-11-08.tar.xz"
+        }
+      }
+    },
+    {
+      "component": {
+        "type": "git",
+        "git": {
+          "repositoryUrl": "https://github.com/microsoft/snmalloc",
+          "commitHash": "4e1f5829a754ab9c170ec090979d3a670d2d5d1a"
+        }
+      }
+    },
+    {
+      "component": {
+        "type": "git",
+        "git": {
+          "repositoryUrl": "https://github.com/dsprenkels/sss",
+          "commitHash": "dc8c3a9a1089e962b32ecdcc940ae11bd2b69e4b"
+        }
+      }
+    },
+    {
+      "component": {
+        "type": "git",
+        "git": {
+          "repositoryUrl": "https://github.com/thelink2012/SmallVector",
+          "commitHash": "febc8cb7b1a83d902b86dd1612feb7c86c690186"
+        }
+      }
+    },
+    {
+      "component": {
+        "type": "git",
+        "git": {
+          "repositoryUrl": "https://github.com/bombela/backward-cpp",
+          "commitHash": "83da75636cef3ee6e0c83cf8651e2929e1b87261"
+        }
+      }
+    },
+    {
+      "component": {
+        "type": "git",
+        "git": {
+          "repositoryUrl": "https://github.com/rollbear/trompeloeil",
+          "commitHash": "08cba57ed7207c8ad5c94fd2a20dc0bfecabe878"
+        }
+      }
+    },
+    {
+      "component": {
+        "type": "git",
+        "git": {
+          "repositoryUrl": "https://github.com/nodejs/llhttp",
+          "commitHash": "8b3939e29a01ffbf9e481a76db81e372f0fb2f0c"
+        }
+      }
+    }
+  ],
+  "Version": 1
+}

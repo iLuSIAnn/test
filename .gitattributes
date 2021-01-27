@@ -1,0 +1,8 @@
+
+*.pdf binary
+*.png binary
+*.jpg binary
+
+*.h linguist-language=C++
+*.cpp linguist-language=C++
+

@@ -1,0 +1,5 @@
+{
+  "ballot": {
+    "text": "tables, calls = ...;\nif not #calls == 1 then return false end;\ncall = calls[1];\nif not call.func == \"open_network\" then return false end;\nreturn true"
+  }
+}
